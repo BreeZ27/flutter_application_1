@@ -1,7 +1,9 @@
+// Flutter imports:
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:carousel_slider/carousel_slider.dart';
 
+// Package imports:
+import 'package:carousel_slider/carousel_slider.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 final List<String> imgList = [
   'https://picsum.photos/500/400',
@@ -17,7 +19,7 @@ List<int> list = [1, 2, 3, 4, 5];
 class BasicDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    List<int> list = [1, 2, 3, 4, 5];
+    
     return Scaffold(
       appBar: AppBar(title: Text('Basic demo')),
       body: Container(
