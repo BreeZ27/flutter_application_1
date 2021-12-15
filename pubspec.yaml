@@ -24,20 +24,10 @@ dependencies:
   flutter:
     sdk: flutter
   uuid: ^2.2.2
-  shimmer:
-    git:
-      url: https://github.com/hnvn/flutter_shimmer
-      ref: revert-10-master
   carousel_slider:
     git:
       url: https://github.com/serenader2014/flutter_carousel_slider
       ref: master
-
-
-
-
-      
-
 
 
 
@@ -49,6 +39,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  import_sorter: ^4.6.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
